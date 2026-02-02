@@ -129,7 +129,7 @@ body{
 
 
 .stats-container {
-  width: 1140px;
+  width: 850px;
   height: 328px;
   background: rgba(78, 71, 255, 0.1); 
   border-radius: 24px;
@@ -166,32 +166,6 @@ body{
   color: rgba(0, 0, 0, 0.5);
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Testimonials */
 .testimonial-section {
   padding: 60px 20px;
@@ -245,12 +219,7 @@ body{
   border-radius: 50%;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .testimonial-cards {
-    flex-direction: column;
-  }
-}
+
 .rev{
   display: flex;
   flex-direction:column ;
@@ -261,6 +230,59 @@ body{
 .rev p{
   color: rgba(179, 179, 179, 1);
 }
+
+
+/* Contact Section */
+.contact-section {
+  background: #f6f8ff;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap:115px;
+  justify-content: space-around;
+}
+
+.contact-left h2 {
+  font-size: 97px;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width:497px;
+  height:490px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+
+
 
 
 
